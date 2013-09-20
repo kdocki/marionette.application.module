@@ -1,6 +1,4 @@
 
-This plugin allows you to define modules (and then lazy load later) on an extended Marionette.Application.
-
 ### Usage
 
 After including the [src/marionette.application.module.js](https://raw.github.com/kdocki/marionette.application.module/master/src/marionette.application.module.js) file into your application you can use it like this.
@@ -24,6 +22,8 @@ After including the [src/marionette.application.module.js](https://raw.github.co
 ### Why on earth would I use this?
 
 *Single line explaination:* _Using a singleton for application container is hard to test in isolation without entire page refreshes_
+
+This plugin allows you to define modules (and then lazy load later) on an extended Marionette.Application.
 
 But really, if you're not sold, let's look at a problem. I am trying to test calling App.request(`hulk:smash`).
 
