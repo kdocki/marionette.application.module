@@ -1,0 +1,20 @@
+{
+    "name": "application_marionette_module",
+    "version": "1.0.0",
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-compass": "~0.2.0",
+        "grunt-contrib-watch": "~0.4.3",
+        "grunt-contrib-uglify": "~0.2.0",
+        "matchdep": "~0.1.2",
+        "mocha": "*",
+        "chai": "*",
+        "karma": "~0.10",
+        "karma-mocha": "~0.1",
+        "karma-handlebars-preprocessor": "*",
+        "underscore": "*",
+        "backbone": "*",
+        "jquery": "~1.8.3",
+        "backbone.marionette" : "*"
+    }
+}
