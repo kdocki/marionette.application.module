@@ -44,4 +44,4 @@ Marionette.Application.module = function(name, callback)
     this.__modules.push([name, callback]);
 
     return this;
-}
+};
